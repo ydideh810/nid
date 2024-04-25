@@ -1,8 +1,8 @@
 import { Theme, extendTheme } from "@chakra-ui/react";
-import "@fontsource/figtree/400.css";
-import "@fontsource/figtree/500.css";
-import "@fontsource/figtree/600.css";
-import "@fontsource/figtree/700.css";
+import "@fontsource/zen-dots/500.css";
+import "@fontsource/zen-dots/600.css";
+import "@fontsource/zen-dots/700.css";
+import '@fontsource/zen-dots/400.css';
 
 import { theme } from "@ngine/react";
 
@@ -15,8 +15,8 @@ import cardTheme from "@goalz/theme/components/card";
 export default extendTheme(
   {
     fonts: {
-      heading: `'Figtree', sans-serif`,
-      body: `'Figtree', sans-serif`,
+      heading: `'Zen Dots', system-ui`,
+      body: `''Zen Dots', system-ui;`,
     },
     config: {
       initialColorMode: "dark",
