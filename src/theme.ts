@@ -1,8 +1,8 @@
 import { Theme, extendTheme } from "@chakra-ui/react";
-import "@fontsource/zen-dots/500.css";
-import "@fontsource/zen-dots/600.css";
-import "@fontsource/zen-dots/700.css";
-import '@fontsource/zen-dots/400.css';
+import "@fontsource/zen-dots";
+import "@fontsource/zen-dots";
+import "@fontsource/zen-dots";
+import '@fontsource/zen-dots';
 
 import { theme } from "@ngine/react";
 
