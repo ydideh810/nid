@@ -52,9 +52,9 @@ export default function Home() {
   return (
     <Stack align="center" spacing={20} mt={12}>
       <CallToAction
-        label="Lightning Fundraisers"
+        label="Lightning-Quick Fundraisers"
         title="Empower Dreams"
-        description="Fund causes and goals with lightning. Heya! fundraising is instantly available without any fees."
+        description="Fund causes and goals with bitcoin lightning. Niddam fundraising is instantly available without any fees."
         ctaText="Create a goal"
         ctaAction={createZapGoal}
       />
@@ -77,7 +77,7 @@ export default function Home() {
       <CallToAction
         label="Your dreams await"
         title="Get the boost you need. Start a goal for yourself or someone you know."
-        description="Heya! is an open source project powered by bitcoin, lightning and the nostr protocol and made possible by the folks at OpenSats."
+        description="Niddam is an open source project powered by bitcoin, lightning and the nostr protocol and made possible by the folks at OpenSats."
         ctaText="Create a goal"
         ctaAction={createZapGoal}
       />
